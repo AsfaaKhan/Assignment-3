@@ -16,23 +16,23 @@ const Contact =()=>{
       <form className="space-y-4">
          {/* Name Field  */}
         <div>
-          <label className="block text-gray-700 font-medium mb-2" htmlFor="name">Full Name</label>
+          <label className="block text-gray-700 dark:text-white font-medium mb-2" htmlFor="name">Full Name</label>
           <input className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400" type="text" id="name" placeholder="Enter your full name" required>
           </input>
         </div>
         
          {/* Email Field  */}
         <div>
-          <label className="block text-gray-700 font-medium mb-2" htmlFor="email">Email</label>
+          <label className="block text-gray-700 dark:text-white font-medium mb-2" htmlFor="email">Email</label>
           <input className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400" type="email" id="email" placeholder="Enter your email" required>
           </input>
         </div>
         
          {/* Select Place Field  */}
         <div>
-          <label className="block text-gray-700 font-medium mb-2 dark:text-white" htmlFor="place">Choose a Place</label>
+          <label className="block text-gray-700 font-medium mb-2 dark:text-gray-400" htmlFor="place">Choose a Place</label>
           <select className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400" id="place" required>
-            <option value="" disabled selected>Select a place</option>
+            <option value="" disabled selected>Select a place </option>
             <option value="Maree">Maree</option>
             <option value="Sawat">Sawat</option>
             <option value="Gilgit">Gilgit</option>
@@ -45,7 +45,7 @@ const Contact =()=>{
 
          {/* Date Field  */}
         <div>
-          <label className="block text-gray-700 font-medium mb-2 dark:text-white" htmlFor="date">Preferred Date</label>
+          <label className="block text-gray-700 font-medium mb-2 dark:text-gray-400" htmlFor="date">Preferred Date</label>
           <input className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400" type="date" id="date" required>
           </input>
         </div>
