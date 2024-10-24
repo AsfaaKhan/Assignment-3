@@ -47,7 +47,7 @@ const Contact =()=>{
         <div>
           <label className="block text-gray-700 font-medium mb-2 dark:text-white
           " htmlFor="date">Preferred Date</label>
-          <input className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 dark:text-gray-400" type="date" id="date" required>
+          <input className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 " type="date" id="date" required>
           </input>
         </div>
         
