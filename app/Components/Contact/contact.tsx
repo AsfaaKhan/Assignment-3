@@ -30,8 +30,8 @@ const Contact =()=>{
         
          {/* Select Place Field  */}
         <div>
-          <label className="block text-gray-700 font-medium mb-2 dark:text-gray-400" htmlFor="place">Choose a Place</label>
-          <select className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400" id="place" required>
+          <label className="block text-gray-700 font-medium mb-2 dark:text-white " htmlFor="place">Choose a Place</label>
+          <select className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 dark:text-gray-400" id="place" required>
             <option value="" disabled selected>Select a place </option>
             <option value="Maree">Maree</option>
             <option value="Sawat">Sawat</option>
@@ -45,14 +45,15 @@ const Contact =()=>{
 
          {/* Date Field  */}
         <div>
-          <label className="block text-gray-700 font-medium mb-2 dark:text-gray-400" htmlFor="date">Preferred Date</label>
-          <input className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400" type="date" id="date" required>
+          <label className="block text-gray-700 font-medium mb-2 dark:text-white
+          " htmlFor="date">Preferred Date</label>
+          <input className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 dark:text-gray-400" type="date" id="date" required>
           </input>
         </div>
         
         {/* Notes Field  */}
         <div>
-          <label className="block text-gray-700 font-medium mb-2" htmlFor="notes">Additional Notes </label>
+          <label className="block text-gray-700 font-medium mb-2 dark:text-white" htmlFor="notes">Additional Notes </label>
           <textarea className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400" id="notes"  placeholder="Enter any special requests or details"></textarea>
         </div>
 
