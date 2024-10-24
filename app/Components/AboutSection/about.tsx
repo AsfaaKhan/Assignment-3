@@ -10,7 +10,7 @@ export default function About() {
         About
     </h1>
 
-    <div className="flex flex-col-reverse lg:flex-row justify-around m-2 px-6 sm:px-10 md:px-12 pt-10 lg:pt-24 lg:pl-10 space-y-10 lg:space-y-0">
+    <div className="flex flex-col-reverse lg:flex-row justify-around m-2 px-6 sm:px-10 md:px-12 pt-5 lg:pt-6 lg:pl-7 space-y-10 lg:space-y-0">
         <div className="lg:w-1/2">
             <h1 className="text-xl sm:text-2xl underline pb-4 pt-8 lg:pt-12">
                 What Do you know about our website?
@@ -27,7 +27,7 @@ export default function About() {
             </p>
         </div>
 
-        <div className="flex items-center justify-center lg:w-1/4">
+        <div className="flex items-center justify-center lg:w-2/5 md:w-1/4 sm:w-1/5">
             <Image src={aboutPic} width={800} height={650} alt="about pic" />
         </div>
     </div>
