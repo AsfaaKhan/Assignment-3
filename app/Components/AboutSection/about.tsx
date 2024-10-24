@@ -27,7 +27,7 @@ export default function About() {
             </p>
         </div>
 
-        <div className="flex items-center justify-center lg:w-2/5 md:w-1/4 sm:w-1/5">
+        <div className="flex items-center justify-center lg:w-45% md:w-1/4 sm:w-1/5">
             <Image src={aboutPic} width={800} height={650} alt="about pic" />
         </div>
     </div>

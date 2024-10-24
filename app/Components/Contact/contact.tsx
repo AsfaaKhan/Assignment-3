@@ -9,9 +9,9 @@ const Contact =()=>{
 
   <div className="flex items-center justify-center min-h-screen">
     
-    <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+    <div className="bg-white dark:bg-black p-8 rounded-lg shadow-lg max-w-md w-full">
       
-      <h2 className="text-2xl font-bold mb-6 text-gray-700 text-center">Why Are You Waiting For <br />Plan Your Visit</h2>
+      <h2 className="text-2xl font-bold mb-6 text-gray-700 dark:text-slate-200 text-center">Why Are You Waiting For <br />Plan Your Visit</h2>
       
       <form className="space-y-4">
          {/* Name Field  */}
@@ -30,22 +30,22 @@ const Contact =()=>{
         
          {/* Select Place Field  */}
         <div>
-          <label className="block text-gray-700 font-medium mb-2" htmlFor="place">Choose a Place</label>
+          <label className="block text-gray-700 font-medium mb-2 dark:text-white" htmlFor="place">Choose a Place</label>
           <select className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400" id="place" required>
             <option value="" disabled selected>Select a place</option>
-            <option value="paris">Maree</option>
-            <option value="tokyo">Sawat</option>
-            <option value="new-york">Gilgit</option>
-            <option value="sydney">Naran Kaghan </option>
-            <option value="sydney">Hunza Valley</option>
-            <option value="sydney">Skardu Valley</option>
+            <option value="Maree">Maree</option>
+            <option value="Sawat">Sawat</option>
+            <option value="Gilgit">Gilgit</option>
+            <option value="Naran Kaghan">Naran Kaghan </option>
+            <option value="Hunza">Hunza Valley</option>
+            <option value="Skardu">Skardu Valley</option>
 
           </select>
         </div>
 
          {/* Date Field  */}
         <div>
-          <label className="block text-gray-700 font-medium mb-2" htmlFor="date">Preferred Date</label>
+          <label className="block text-gray-700 font-medium mb-2 dark:text-white" htmlFor="date">Preferred Date</label>
           <input className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400" type="date" id="date" required>
           </input>
         </div>
