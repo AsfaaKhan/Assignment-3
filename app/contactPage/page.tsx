@@ -15,16 +15,6 @@ export default function Contact(){
             <div>
             <ContactPage/>
             </div>
-
-            <div>
-                <Image src={"/places/logoPic.png"}
-                alt="contact image"
-                width={500}
-                height={400}>
-
-                </Image>
-            </div>
-           
         </div>
     )
 }
