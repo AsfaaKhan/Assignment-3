@@ -30,7 +30,7 @@ export default function About() {
 
                     <div>
                         <Image
-                            src={'/New folder/backgroundImage.jpg'} width={400} height={200} alt="about pic" ></Image>
+                            src={'/placesr/backgroundImage.jpg'} width={400} height={200} alt="about pic" ></Image>
                     </div>
                 </div>
 
