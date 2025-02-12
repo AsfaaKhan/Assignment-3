@@ -30,7 +30,7 @@ export default function About() {
 
                     <div>
                         <Image
-                            src={'/places/backgroundImage.jpg'} width={300} height={200} alt="about pic" ></Image>
+                            src={'/places/backgroundImage.jpg'} width={400} height={200} alt="about pic" ></Image>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ export default function About() {
 
                     <div>
                         <Image
-                            src={'/places/visit.jpg'} width={300} height={200} alt="about pic" ></Image>
+                            src={'/places/visit.jpg'} width={400} height={200} alt="about pic" ></Image>
                     </div>
 
                     <div className=" flex flex-col justify-center   gap-6">
@@ -82,7 +82,7 @@ export default function About() {
 
                     <div>
                         <Image
-                            src={'/places/maree.jpg'} width={300} height={200} alt="about pic" ></Image>
+                            src={'/places/maree.jpg'} width={400} height={200} alt="about pic" ></Image>
                     </div>
                 </div>
             </div>
