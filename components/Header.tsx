@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="container mx-auto flex justify-between items-center h-12">
           {/*             LOGO                    */}
           <div className="text-white text-2xl  flex gap-2 ">
-            <Image className="pl-4"
+            <Image className="pl-2"
              src={'/places/logoPic.png'} width={40} height={40} alt="LOGO" />
             <h1 >AK Travels</h1>
           </div>
