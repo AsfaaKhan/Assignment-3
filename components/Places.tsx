@@ -10,7 +10,7 @@ const Places = () => {
         </h1>
         <h1 className="text-center pt-8 sm:pt-10 text-xl sm:text-2xl underline">
           <Link
-            href="/visitingPlaces"
+            href="/VisitingPlaces"
             target="_blank"
             className="hover:text-purple-600"
           >

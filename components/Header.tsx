@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className=" hidden md:flex space-x-4 justify-end ">
             <Link className=" hover:text-white hover:underline text-xl" href="/">Home </Link>
             <Link className=" hover:text-white hover:underline text-xl" href="/aboutPage">About</Link>
-            <Link className=" hover:text-white hover:underline text-xl" href="/visitingPlaces">Places</Link>
+            <Link className=" hover:text-white hover:underline text-xl" href="/VisitingPlaces">Places</Link>
             <Link className=" hover:text-white hover:underline text-xl" href="/contactPage">Contact </Link>
             
           </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
 
             <Link href="/aboutPage" className="block text-black  text-bold text-[20px]  py-2 hover:text-white hover:underline" onClick={handleNavbar}>About</Link>
 
-            <Link href="/visitingPlaces" className="block text-black  text-bold text-[20px]  py-2 hover:text-white hover:underline" onClick={handleNavbar}>Places</Link>
+            <Link href="/VisitingPlaces" className="block text-black  text-bold text-[20px]  py-2 hover:text-white hover:underline" onClick={handleNavbar}>Places</Link>
 
             <Link href="/contactPage" className="block text-black  text-bold text-[20px]  py-2 hover:text-white hover:underline" onClick={handleNavbar}>Contact</Link>
           </div>
