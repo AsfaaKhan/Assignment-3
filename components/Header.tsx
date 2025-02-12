@@ -23,7 +23,7 @@ const Navbar = () => {
           {/*             LOGO                    */}
           <div className="text-white text-2xl  flex gap-2 ">
             <Image className="pl-4"
-             src={'/New folder/logoPic.png'} width={50} height={50} alt="LOGO" />
+             src={'/places/logoPic.png'} width={40} height={40} alt="LOGO" />
             <h1 >AK Travels</h1>
           </div>
 
