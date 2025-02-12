@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import Link from "next/link"
 const Places =() =>{
     return(
         <div id="places">
@@ -9,17 +9,17 @@ const Places =() =>{
     Visiting Places
   </h1>
   <h1 className="text-center pt-8 sm:pt-10 text-xl sm:text-2xl underline">
-    <a
-      href="/visitingPlaces"
+    <Link
+      href="/VisitingPlaces"
       target="_blank"
       className="hover:text-purple-600"
     >
       Winter Holidays You are Dreaming About
-    </a>
+    </Link>
   </h1>
 
   <div className="pt-12 sm:pt-16 flex justify-center">
-    <Image src={'/New folder/visitPIc.jpg'} width={400} height={300}
+    <Image src={'/places/visitPIc.jpg'} width={400} height={300}
       className=" sm:w-96 md:w-[500px] lg:w-[600px]"
       alt="visitImage"
     />
